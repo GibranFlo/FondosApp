@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Wallpapers</string>
+
+    <string name="desarrollador">Gibran Flores Mendieta</string>
+    <string name="desarrolladora">April Gonzales Pichardo</string>
+
+    <string name="navigation_drawer_open"> Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!--menu-->
+    <string name="InicioAdmin">Inicio</string>
+    <string name="PerfilAdmin">Perfil</string>
+    <string name="RegistrarAdmin">Registrar</string>
+    <string name="ListarAdmin">Listar</string>
+    <string name="SalirAdmin">Salir</string>
+
+    <!--menu cliente-->
+    <string name="opcionestxt">opciones</string>
+    <string name="inicioCliente">Inicio Cliente</string>
+    <string name="MasOpcionestxt">Mas opciones</string>
+    <string name="AcercaDE">Acerca de</string>
+    <string name="Compartir">Compartir</string>
+    <string name="Acceder">Acceder</string>
+
+    <!--registro de administradores-->
+    <string name="RegistroTXT">Registro de Administradores</string>
+    <string name="Correo">Correo electronico</string>
+    <string name="Password">Constraseña</string>
+    <string name="Nombres">Nombre completo</string>
+    <string name="Apellido">Apellidos completos</string>
+    <string name="Edad">Edad</string>
+    <string name="FechaRegistro">Fecha de registro</string>
+    <string name="Registrar">Registrar</string>
+
+    <!--Login de administradores-->
+    <string name="LoginTXT">Login de admiistradores</string>
+    <string name="Ingresar">Ingresar</string>
+
+    <!--Categorias-->
+    <string name="Categoriatxt">Elige una categoria</string>
+    <string name="Cybercore">Cybercore</string>
+    <string name="Aesthetic">Aesthetic</string>
+    <string name="Espacio">Espacio</string>
+    <string name="Frutiger">Frutiger</string>
+
+    <!--Menu Top Right-->
+    <string name="Agregar">Agregar</string>
+    <string name="Vista">Vista</string>
+
+    <!--Espacio-->
+    <string name="EspacioTXT">Nombre de imagen</string>
+    <string name="NombreEspacio">Escribe el nombre de la imagen</string>
+    <string name="VistaEspacio">0</string>
+    <string name="PublicarEspacio">Publicar</string>
+    <string name="NombreImagenEspacio"> -- </string>
+    <string name="VistasEspacios"> -- </string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#9EA8C5"
+    tools:context=".FragmentosAdministrador.RegistroAdmin">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <!--REGISTRO-->
+        <TextView
+            android:text="@string/RegistroTXT"
+            android:layout_gravity="center"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:fontFamily="@font/comfortaaregular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+        <!--FECHA ICON-->
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <!--FECHA-->
+            <TextView
+                android:id="@+id/FechaRegistro"
+                android:text="@string/FechaRegistro"
+                android:layout_width="wrap_content"
+                android:textColor="#000"
+                android:layout_height="wrap_content"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/calendario_ico"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <!--ICON PERFIL-->
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/admin"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"/>
+
+        <!--CORREO-->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/Correo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="textEmailAddress"
+                android:padding="16dp"
+                android:text="@string/Correo">
+
+            </EditText>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!--CONTRASEÑA-->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:passwordToggleEnabled="true">
+            
+            <EditText
+                android:id="@+id/Password"
+                android:inputType="textPassword"
+                android:padding="16dp"
+                android:text="@string/Password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </EditText>
+            
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!--NOMBRES-->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/Nombre"
+                android:inputType="textCapWords|textAutoComplete"
+                android:text="@string/Nombres"
+                android:padding="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </EditText>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!--aPELLIDOS-->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/Apellido"
+                android:inputType="textCapWords|textAutoComplete"
+                android:text="@string/Apellido"
+                android:padding="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </EditText>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!--EDAD-->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/Edad"
+                android:inputType="number"
+                android:text="@string/Edad"
+                android:padding="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </EditText>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/Registrar"
+            android:text="@string/Registrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</ScrollView>

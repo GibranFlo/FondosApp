@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "779726210961",
+    "project_id": "fondos-de-pantalla-a3f3d",
+    "storage_bucket": "fondos-de-pantalla-a3f3d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:779726210961:android:127123da1fa521c922fc30",
+        "android_client_info": {
+          "package_name": "com.gibranflores.fondos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFbxY67Eu-1_WLMEqotnhtpl73eLYRNLo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
